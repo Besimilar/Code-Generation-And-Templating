@@ -12,31 +12,33 @@ The template engine would generate the HTML output response when an HTTP request
 ## Python template engines
 There are several popular Python template engines. A template engine implementation will fall somewhere on the spectrum between allowing arbitrary code execution and granting only a limited set of capabilities via template tags. A rough visual of the code in template spectrum can be seen below for four of the major Python template engines.
 
+![alt text](https://www.fullstackpython.com/img/visuals/template-logic-spectrum.png)
+
 ## Jinja (Jinja2)
 Jinja, also known and referred to as "Jinja2", is a popular Python template engine written as a self-contained open source project.
 
 Jinja2 is one of the most used template engines for Python. It is inspired by Django's templating system but extends it with an expressive language that gives template authors a more powerful set of tools.
 
 ### Tutorial
-Intro: https://www.fullstackpython.com/jinja2.html
-Flask Example: https://realpython.com/blog/python/primer-on-jinja-templating/
-Template Intro: http://jinja.pocoo.org/docs/2.9/templates/#line-statements
+* Intro: https://www.fullstackpython.com/jinja2.html
+* Flask Example: https://realpython.com/blog/python/primer-on-jinja-templating/
+* Template Intro: http://jinja.pocoo.org/docs/2.9/templates/#line-statements
 
 ## Mako
 Mako was the default templating engine for the Pylons web framework and is one of many template engines supported by Pyramid. Mako has wide support as a replacement template engine for many other web frameworks as well.
 
 ### Tutorial
-Intro: https://www.fullstackpython.com/mako.html
+* Intro: https://www.fullstackpython.com/mako.html
 
 ## Astor
 ### Tutorial
-Documentation: https://pypi.python.org/pypi/astor
-Tutorial: https://github.com/berkerpeksag/astor
+* Documentation: https://pypi.python.org/pypi/astor
+* Tutorial: https://github.com/berkerpeksag/astor
 
 ## Cog
 ### Tutorial
-Documentation: https://www.python.org/about/success/cog/
-Tutorial: https://nedbatchelder.com/code/cog/index.html
+* Documentation: https://www.python.org/about/success/cog/
+* Tutorial: https://nedbatchelder.com/code/cog/index.html
 
 
 

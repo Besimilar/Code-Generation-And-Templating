@@ -71,10 +71,12 @@ pip install Jinja2
 
     A template contains variables and/or expressions, which get replaced with values when a template is rendered; and tags, which control the logic of the template. The template syntax is heavily inspired by Django and Python.
 
-    * '{% ... %}' for Statements
-    * '{{ ... }}' for Expressions to print to the template output
-    * '{# ... #}' for Comments not included in the template output
-    * '#  ... ##' for Line Statements
+    ```text
+    {% ... %} for Statements
+    {{ ... }} for Expressions to print to the template output
+    {# ... #} for Comments not included in the template output
+    #  ... ## for Line Statements
+    ```
 
 
 

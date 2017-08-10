@@ -1,4 +1,8 @@
 # Jinja (Jinja2)
+## DockerHub
+besimilar/advanced-data-analysis:template
+
+## Introduction
 Jinja, also known and referred to as "Jinja2", is a popular Python template engine written as a self-contained open source project.
 
 Jinja2 is one of the most used template engines for Python. It is inspired by Django's templating system but extends it with an expressive language that gives template authors a more powerful set of tools.
@@ -20,8 +24,8 @@ pip install Jinja2
 * Flask Example: https://realpython.com/blog/python/primer-on-jinja-templating/
 * Template Intro: http://jinja.pocoo.org/docs/2.9/templates/#line-statements
 
-## Basic API Usage
-1. Python API
+## Demo
+1. Python API ('src/basicAPI-demo/basicAPI-1.py')
     ```
     >>> from jinja2 import Template
     >>> template = Template('Hello {{ name }}!')
@@ -34,7 +38,7 @@ pip install Jinja2
     ```
     By creating an instance of Template you get back a new template object that provides a method called render() which when called with a dict or keyword arguments expands the template. The dict or keywords arguments passed to the template are the so-called “context” of the template.
 
-2. Basic
+2. Basic ('src/basicAPI-demo/basicAPI-2.py')
 
     Jinja2 uses a central object called the template Environment. Instances of this class are used to store the configuration and global objects, and are used to load templates from the file system or other locations. Even if you are creating templates from strings by using the constructor of Template class, an environment is created automatically for you, albeit a shared one.
 
@@ -59,9 +63,16 @@ pip install Jinja2
     print(template.render(escape='TRUE'))
     ```
 
-3. Demo: 
+3. Flask-demo: ('src/Flask-demo/\*')
 
     Source: https://realpython.com/blog/python/primer-on-jinja-templating/
+    
+    ```
+    # start container
+    $ docker run -it -p 5000:5000 image:version
+    # run app in container
+    $ python3.5 run.py
+    ```
 
     For those who have not been exposed to a templating language before, such languages essentially contain variables as well as some programming logic, which when evaluated (or rendered into HTML) are replaced with actual values. The variables and/or logic are placed between tags or delimiters.
 

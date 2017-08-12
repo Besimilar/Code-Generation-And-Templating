@@ -6,6 +6,8 @@
     	* Part1: https://www.screencast.com/t/JV2AfbFVvRpz
     	* Part2: https://www.screencast.com/t/Zf4mpkwrmye
     * presentation: 1-Hongwei_Jinja2.pptx
+    * docker image: besimilar/advanced-data-analysis:template
+    
 * Guangnan Liang:
     * report: 
     * presentation:

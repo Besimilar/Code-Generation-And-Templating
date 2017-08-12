@@ -2,11 +2,12 @@
 
 * Hongwei Hu:
     * report: 1-Hongwei_Jinja2.docx
-    * video:
+    * video: 
+    	* Part1: https://www.screencast.com/t/JV2AfbFVvRpz
+    	* Part2: https://www.screencast.com/t/Zf4mpkwrmye
     * presentation: 1-Hongwei_Jinja2.pptx
 * Guangnan Liang:
     * report: 
-    * video:
     * presentation:
 
 # Template Engines: 

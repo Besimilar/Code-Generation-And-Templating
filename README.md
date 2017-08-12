@@ -9,8 +9,7 @@
     * docker image: besimilar/advanced-data-analysis:template
     
 * Guangnan Liang:
-    * report: 
-    * presentation:
+    * report: 2-Guangnan_Template.pptx
 
 # Template Engines: 
 

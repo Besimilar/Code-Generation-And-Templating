@@ -16,6 +16,11 @@ def inheritance():
         my_list=[6,7,8,9,10,11])
 
 
+@app.route("/layout")
+def layout():
+    return render_template('layout.html')
+
+
 if __name__ == '__main__':
     app.run(debug=True, host='0.0.0.0')
     # app.run(debug=True)
